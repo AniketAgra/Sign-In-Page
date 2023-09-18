@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form | Solutions Undertrial </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/su-logo.ico" type="image/x-icon">
+
+
+</head>
+<body>
+    <div class="main-wrap">
+        <div class="box-container">
+            
+            <div class="form-wrap">
+                <div class="top-signup">
+                    <span>Don't have an account?</span>
+                    <a href="#" class="signup-btn">SIGN UP</a>
+                </div>
+                <div id="logo-su">
+                    <img src="images/logo.jpg" alt="" style="width: 50px;">
+                    <h2 style="color: rgb(224, 250, 250);">SOLUTIONS UNDERTRIAL</h2>
+               </div>
+                <div class="mid-container">
+                    <h1 style="color: rgb(255, 255, 255);">Welcome Back</h1>
+                    <h6>Login your Account</h6>
+                    <form action="https://solutions-undertrial-dashboard.netlify.app/" class="form">
+                        <label for="Username">User Id :</label></br>
+                        <input type="text" name="username" id="" placeholder="Your unique Id"> 
+                        </br></br>
+                        <label for="Password">Password :</label></br>
+                        <input type="password" name="password" id="" placeholder="Your password">
+                        <br>
+                        <label for="Aadhar No.">Aadhar Number:</label><br>
+                        <input type="text" id="aadh" maxlength="12" placeholder="Enter Your Aadhar Number">
+                        <button class="otpsend">Send OTP</button><br>
+                        <label for="Verification" style="color: rgb(255, 255, 255);">Verify OTP:</label><br>
+                        <input type="number" name="password" id="verotp" placeholder="Enter OTP" >
+                        <button type="submit" class="otp_verification">verify</button><br>
+                        <span><a href="#" class="fg-pass" style="color: rgb(0, 247, 255);">Forgot password?</a></span>
+                        <br>
+                        <button type="submit" class="login-btn">Login</button>
+                    </form>
+                </div>
+                <div class="login-with">
+                    <span>Login with</span>
+                    <a href="https://facebook.com/"><img src="images/fb.png" alt=""></a>
+                    <a href="https://google.com/"><img src="images/google.png" alt=""></a>
+                    <a href="https://twitter.com/"><img src="images/twitter.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
